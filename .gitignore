@@ -1,0 +1,48 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables (IMPORTANT)
+.env
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Testing / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# FastAPI / Uvicorn temp
+*.pid
+
+# OS files
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Secrets
+secrets.json
