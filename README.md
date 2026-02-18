@@ -45,7 +45,7 @@ source .venv/bin/activate
 ```
 
 You should see (venv) or (.venv) in your terminal once activated.
-```
+
 2️⃣ Install dependencies
 ```
 pip install -r requirements.txt
