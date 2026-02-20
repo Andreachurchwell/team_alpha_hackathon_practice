@@ -56,6 +56,7 @@ uvicorn app.main:app --reload
 ```
 
 Then open:
+
 ```
 http://localhost:8000/docs
 ```
