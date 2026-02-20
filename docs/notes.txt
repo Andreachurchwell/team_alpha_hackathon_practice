@@ -1,0 +1,31 @@
+
+Phase 1 (fast win): routes-only split
+
+Don’t touch helpers yet. Just move endpoints into route files.
+
+✅ Goal: /docs shows all endpoints and app still runs.
+
+Assign by route file:
+
+Person A: auth_routes.py
+
+Person B: chat_routes.py
+
+Person C: content_routes.py
+
+Person D: system_routes.py
+
+(1 Driver wires main.py)
+
+This is the “we can do this” moment.
+
+
+Phase 2 (cleanup): shared helpers
+
+After routes are split and stable, you extract helpers:
+
+security into core/security.py
+
+db stuff into data/database.py
+
+chat/content logic into services/
